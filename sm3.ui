@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SM3_MainWindow</class>
+ <widget class="QMainWindow" name="SM3_MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>778</width>
+    <height>637</height>
+   </rect>
+  </property>
+  <property name="contextMenuPolicy">
+   <enum>Qt::CustomContextMenu</enum>
+  </property>
+  <property name="windowTitle">
+   <string>SM3_MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="select_file_but">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>10</y>
+      <width>131</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Select file to add</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="version_lab">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>569</y>
+      <width>71</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Version:1.0</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="author_lab">
+    <property name="geometry">
+     <rect>
+      <x>700</x>
+      <y>570</y>
+      <width>61</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Author:lzl</string>
+    </property>
+   </widget>
+   <widget class="QTableWidget" name="system_table">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>711</width>
+      <height>511</height>
+     </rect>
+    </property>
+    <attribute name="horizontalHeaderVisible">
+     <bool>true</bool>
+    </attribute>
+    <attribute name="verticalHeaderVisible">
+     <bool>false</bool>
+    </attribute>
+    <column>
+     <property name="text">
+      <string>文件id</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>文件路径</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>文件名</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>校验的哈希值</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>加入系统时间</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>上次修改时间</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>文件大小</string>
+     </property>
+    </column>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>778</width>
+     <height>23</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
