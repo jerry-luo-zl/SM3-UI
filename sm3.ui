@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>778</width>
-    <height>637</height>
+    <width>1139</width>
+    <height>782</height>
    </rect>
   </property>
   <property name="contextMenuPolicy">
@@ -34,7 +34,7 @@
     <property name="geometry">
      <rect>
       <x>10</x>
-      <y>569</y>
+      <y>700</y>
       <width>71</width>
       <height>31</height>
      </rect>
@@ -43,67 +43,57 @@
      <string>Version:1.0</string>
     </property>
    </widget>
-   <widget class="QLabel" name="author_lab">
-    <property name="geometry">
-     <rect>
-      <x>700</x>
-      <y>570</y>
-      <width>61</width>
-      <height>20</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Author:lzl</string>
-    </property>
-   </widget>
    <widget class="QTableWidget" name="system_table">
     <property name="geometry">
      <rect>
-      <x>30</x>
+      <x>40</x>
       <y>60</y>
-      <width>711</width>
-      <height>511</height>
+      <width>1061</width>
+      <height>641</height>
      </rect>
     </property>
     <attribute name="horizontalHeaderVisible">
      <bool>true</bool>
+    </attribute>
+    <attribute name="horizontalHeaderDefaultSectionSize">
+     <number>150</number>
     </attribute>
     <attribute name="verticalHeaderVisible">
      <bool>false</bool>
     </attribute>
     <column>
      <property name="text">
-      <string>文件id</string>
+      <string>File ID</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>文件路径</string>
+      <string>File Path</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>文件名</string>
+      <string>File Name</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>校验的哈希值</string>
+      <string>File Hash Value</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>加入系统时间</string>
+      <string>Entry Add Time</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>上次修改时间</string>
+      <string>Last Mod Time</string>
      </property>
     </column>
     <column>
      <property name="text">
-      <string>文件大小</string>
+      <string>File Size(Bytes)</string>
      </property>
     </column>
    </widget>
@@ -113,7 +103,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>778</width>
+     <width>1139</width>
      <height>23</height>
     </rect>
    </property>

@@ -9,11 +9,28 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    SM3.cpp \
-    main.cpp \
-    sm3_mainwindow.cpp
+    src/SM3.cpp \
+    include/openssl/applink.c \
+    src/main.cpp \
+    src/sm3_mainwindow.cpp
 
 HEADERS += \
+    include/errmsg.h \
+    include/field_types.h \
+    include/my_command.h \
+    include/my_compress.h \
+    include/my_list.h \
+    include/mysql.h \
+    include/mysql/client_plugin.h \
+    include/mysql/plugin_auth_common.h \
+    include/mysql/udf_registration_types.h \
+    include/mysql_com.h \
+    include/mysql_time.h \
+    include/mysql_version.h \
+    include/mysqld_error.h \
+    include/mysqlx_ername.h \
+    include/mysqlx_error.h \
+    include/mysqlx_version.h \
     include\SM3.h \
     include\Types.h \
     include\sm3_mainwindow.h
